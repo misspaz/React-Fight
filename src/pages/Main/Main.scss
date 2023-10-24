@@ -1,0 +1,35 @@
+.p-all-characters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-character {
+  width: 300px;
+
+  &__img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  &__name {
+    font-family: sans-serif;
+    font-size: 30px;
+  }
+}
+.hover01 div img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.hover01 div:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.clicked {
+    border-color: red 1px solid; 
+  }
