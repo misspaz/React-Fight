@@ -1,17 +1,7 @@
-import { useContext } from "react";
-import { AppContext } from "../../AppContext/AppContext";
-
-export default function FightPage() {
-const { characters } = useContext(AppContext);
-
-
-
-
-
-
-    return (
-        <div>
-
-        </div>
-    )
-}
+// export default function FightPage() {
+//   return (
+//     <div>
+//       <h1>Fight!</h1>
+//     </div>
+//   );
+// }
